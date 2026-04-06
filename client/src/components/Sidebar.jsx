@@ -97,7 +97,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
           <img src={user.imageUrl} className="w-8 rounded-full" alt="" />
           <div>
             <h1 className="text-sm font-medium"> {user.fullName}</h1>
-            <p className="text-xs text-gray-500">
+            <p className="text-xs text-gray-500 first-letter:capitalize">
               {user.publicMetadata?.plan || "Free"} Plan
             </p>
           </div>
